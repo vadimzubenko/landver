@@ -43,7 +43,7 @@
 								<a href="#" id="arrow1">מסורת של איכות<img src="_media/images/coffee/cupping/arrow1.png" alt=""></a>
 								<a href="#" id="arrow2"><img src="_media/images/coffee/cupping/arrow2.png" alt="">CUPPING</a>
 							</div>	
-				</div>	
+			</div>	
 		
 		</div>
 	

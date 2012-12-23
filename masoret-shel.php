@@ -35,8 +35,8 @@
 						"לנדוור" לשם נרדף לאיכות בלתי מתפשרת.</p>
 					</div>
 					<hr class="hrdashed">
-					<div class="tradition3">
-							<img src="_media/images/coffee/tradition/trad1.png" alt="tradition">
+					<div class="tradition2">
+							<img class="bigimg" src="_media/images/coffee/tradition/trad1.png" alt="tradition">
 							<h2>לוח טעמים</h2>
 							<hr class="hrdashed">
 							</br>
@@ -64,15 +64,12 @@
 							לנדוור.</p>
 					</div>	
 						<hr class="hrdashed">
-					<div class="tradition4">
-							<img src="_media/images/coffee/tradition/trad1.png" alt="tradition">
-							<div id="trad1">
-								<img src="_media/images/coffee/tradition/trad2.png" alt="tradition">
-							</div>
-							<div id="trad2">	
-								<img src="_media/images/coffee/tradition/trad2.png" alt="tradition">
-							</div>
-								<h2>כיתוב תמונה</h2>
+					<div class="tradition2">
+							<br>
+							<img class="bigimg" src="_media/images/coffee/tradition/trad1.png" alt="tradition">
+							<img class="leftimg" src="_media/images/coffee/tradition/trad2.png" alt="tradition">
+							<img class="rightimg" src="_media/images/coffee/tradition/trad2.png" alt="tradition">
+							<h2>כיתוב תמונה</h2>
 							<hr class="hrdashed">	
 							<div id="trad3">
 								<br>

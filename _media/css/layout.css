@@ -135,8 +135,9 @@ h4, p{ margin:0; }
 
 
 /* Cupping*/
-.content {float:left; height: 100%;}
-.sidebar {height:100%; width: 480px;}
+.content {float:left;}
+.sidebar {float:right; width: 480px; padding-bottom: 110px;}
+.sidebar2 {float: right; width:315px;}
 .aromat {width:310px; background-color: #faba00; float: left; font-size:14px;}
 .aromatinfo {padding-right:20px; padding-bottom:20px; padding-top:20px;}
 .aromatinfo p, .aromatinfo h3 {color:#573d39;}
@@ -159,27 +160,29 @@ h4, p{ margin:0; }
 #arrow1 {float: left;}
 #arrow2 {float: right;}
 .hrsolid2 {background:url("../images/coffee/taarovot/hr1.png"); height: 1px; width: 480px; border:0;}
-#arrow1 img {margin-right: 5px;}
+#arrow1 img, #arrow3 img {margin-right: 5px;}
 #arrow2 img{margin-left: 5px;}
 
 
 /*Masoret Shel*/
 .tradition {height: 45px; width: 480px; background:url("../images/coffee/cupping/cupping.png");}
 .tradition h2 {text-transform:uppercase; color:#fff; font-family: 'maccabiblockblack'; font-size: 23px; padding: 8px 15px;}
-.tradition2 h2, .tradition3 h2, .tradition4 h2 {font-size: 14px; color: #573d39; padding-top:5px; padding-bottom:5px; text-align:center;}
+.tradition2 h2 {font-size: 14px; color: #573d39; padding-top:5px; padding-bottom:5px; text-align:center;}
 .tradition p, .tradition2 p {font-size:14px; color: #573d39; padding-bottom: 25px; font-family: 'maccabiblockbold';}
 .tradition2 h3 {font-size:14px; color: #573d39; padding: 15px 0 10px 0; font-family: 'maccabiblockblack';}
-.tradition3, .tradition4 {padding-top:25px;}
-.tradition3 p, .tradition4 p {font-size:14px; color: #573d39;  font-family: 'maccabiblockbold'; padding-bottom:25px;}
 
-
-
-#trad1 {float: right; padding-top: 25px;} 
-#trad2 {float:left; padding-top: 25px;}
+/*Tahalih*/
+.firing {height: 45px; width: 480px; background:url("../images/coffee/cupping/cupping.png"); }
+.firing h2 {text-transform:uppercase; color:#f3edd8; font-family: 'maccabiblockblack'; font-size: 23px; padding: 8px 15px;}
+.firingp1 {font-size:14px; color: #573d39; padding: 15px 0 0 0; font-family: 'maccabiblockbold'; padding-bottom:25px; float:left; border-bottom: 1px dashed #8F726B;}
+.firing2 {padding-top:15px; padding-bottom: 15px; font-size:14px; font-family: 'maccabiblockbold';}
+.firing2 h3, .firing3 h3 {font-size:13px; color: #573d39;  font-family: 'maccabiblockblack'; text-align:center;}
+.rightimg, .leftimg {padding-top: 10px;}
+.leftimg {float: left;}
+.bigimg {padding-top:15px;}
 
 
 /*Kids */
-
 .childmenu {width: 570px; height: 330px; float: left; background-color: #e7524c; padding: 5px;}
 .child1 {height: 100%; border: 1px solid #fff;}
 .child1 p {border-bottom: 1px dashed #fff;}
@@ -205,14 +208,13 @@ h4, p{ margin:0; }
 .kids2 {position: relative; left: 6.2%; margin-top: 7%;}
 
 /* Taarovot1*/
-.sidebar2 {float: right; height:100%; padding-bottom: 110px;}
 #products {width:500px; height:660px; float:left; margin-bottom: 110px;}
 .photos {width: 145px; height:205px; float: left; margin: 0 20px 20px 0;}
 .photos:last-child {float:right; padding-right: 6px;}
 .mixture {height: 45px; width: 315px; background:url("../images/coffee/taarovot/mixture.png"); }
 .mixture h2 {text-transform: uppercase; color: #f3edd8; font-family: 'maccabiblockblack'; font-size: 23px; padding: 8px 15px;}
-.mixture p {font-size:14px; color: #573d39;  font-family: 'maccabiblockbold'; padding-top:25px; float:left; padding-bottom: 10px;}
-.hrsolid {background:url("../images/coffee/taarovot/hr1.png"); height: 1px; width: 315px; border:0;}
+.mixture p {font-size:14px; color: #573d39;  font-family: 'maccabiblockbold'; padding-top:15px; float:left; padding-bottom: 10px;}
+.hrsolid {background:url("../images/coffee/taarovot/hr1.png"); height: 1px; width: 315px; border:0;float:right;}
 
 
 /*Taarovot2*/
@@ -239,23 +241,39 @@ h4, p{ margin:0; }
 .bottom {width:980px; height:145px; border-top:1px solid #573d39; float:left;}
 .arrows a {width: 20px; height: 20px;}
 
-/*Tahalih*/
-.sidebar3 { height: 100%; width:480px; padding-bottom: 110px;}
-.firing {height: 45px; width: 480px; background:url("../images/coffee/cupping/cupping.png"); }
-.firing h2 {text-transform:uppercase; color:#f3edd8; font-family: 'maccabiblockblack'; font-size: 23px; padding: 8px 15px;}
-.firingp1 {font-size:14px; color: #573d39; padding: 15px 0 0 0; font-family: 'maccabiblockbold'; padding-bottom:25px; float:left; border-bottom: 1px dashed #8F726B;}
-.firing2 {padding-top:25px; border-bottom: 1px solid #8F726B; padding-bottom: 15px;}
-.firing2 h3, .firing3 h3 {font-size:13px; color: #573d39;  font-family: 'maccabiblockblack'; text-align:center;}
-#fir1 {float: right; padding-top: 25px;} 
-#fir2 {float:left; padding-top: 25px;}
-#fir3 {border-top: 1px dashed #8F726B;}
-#fir3p {font-size:14px; color: #573d39; padding: 15px 0 0 0; font-family: 'maccabiblockbold';}
-#fir3p2 {font-weight}
+/*Events*/
+.events {list-style-type:none; width: 480px; float: left;}
+.events li {line-height: 3;}
+.events li span {color:#e53517; font-size:16px; font-family: 'maccabiblockblack';}
+.blndoor {height: 880px; float: left; margin-top: 45px;}
+.blndoor a {float: left; margin-left:15px;}
+
+/*Recipe*/
+.recipe h2 {font-size:18px; font-family: 'maccabiblockblack'; color: #573d39; padding:5px 0;}
+.recipe img {padding-top:20px;}
+.recipe h3 {font-size:14px; font-family: 'maccabiblockblack'; color: #573d39; padding:5px 0;}
+.recipe {width: 480px; font-size:14px; font-family: 'maccabiblockbold'; color: #573d39; padding:5px 0;}
+#print {float:left;margin-top: 15px;}
+#facebook {float:right; margin-top: 20px;}
+#like {float: left;}
+.mixture ul {width:480px;float:right; font-family: 'maccabiblockblack'; display:block; list-style-position: outside; list-style-type:none; line-height: 2;}
+.mixture ul li  a{display:block; color:#90736c;}
+.mixture ul li a:link{color:#90736c;}
+.mixture ul li a:hover {color:#573d39; background:url("../images/coffee/recipe/marker.png") no-repeat center right;}
+.fb-like {float:right; margin-bottom: 110px;}
+
+/*Tips*/
+.tips {float:left; width:315px;}
+.tips h2 {font-size:20px; color:#90736c; text-transform: uppercase; font-family: 'maccabiblockblack'; float: right;}
+.tips h3 {font-size:20px; color:#90736c; text-transform: uppercase; font-family: 'maccabiblockblack'; float: right; padding-top:60px;}
+.hrdashed2 {background:url("../images/coffee/taarovot/hr2.png"); height: 1px; width: 315px; border:0;}
+.tips p {padding-top:5px; padding-bottom:15px; font-size:14px; color: #90736c; font-family: 'maccabiblockblack';}
+#arrow3 {padding-top:12px; font-size: 13px; font-family: 'maccabiblockblack'; color:#90736c; float:left;}
+
 
 
 
 /* Footer  */
-
 #footerWrapper{ background:url("../images/general/footer/footerBg.png") 0 0; height:241px; padding-top:15px; width:100%; float:left;}
 #footerlinksWrapper{ color:#cfc4ad; font-size:12px; height:192px; list-style-type:none; margin:0 auto; width:1000px; }
 
