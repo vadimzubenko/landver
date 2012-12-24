@@ -11,9 +11,8 @@
 			<div class="firstp">
 			<p>כתבו או התקשרו</p></br>
 			<p>03-7311311</p>
-			<a href="#" target="_black"><img src="_media/images/home/facebook.png" alt="facebook"><a>
+			<a href="#" target="_blank"><img src="_media/images/home/facebook.png" alt="facebook"></a>
 			</div>
-			
 		</li>
 		<li class="second">
 			<h3>קפה</h3><br />	
@@ -32,13 +31,16 @@
 			<div class="filials">
 				<ul id="fourth1">
 					<h3>ירושלים והסביבה</h3>
-						<a href="#">מתחם התחנה, ירושלים</a></ul>
+						<a href="#">מתחם התחנה, ירושלים</a>
+				</ul>
 				<ul id="fourth2">
-				<h3>צפון</h3>
-						<a href="#">סטריט מול, רמת ישי</a></ul>
+					<h3>צפון</h3>
+						<a href="#">סטריט מול, רמת ישי</a>
+				</ul>
 				<ul id="fourth3">
 					<h3>צפון</h3>
-						<a href="#">סטריט מול, רמת ישי</a></ul>
+						<a href="#">סטריט מול, רמת ישי</a>
+				</ul>
 			</div>			
 			<div class="filials2">
 			<ul id="fourth4">
@@ -52,6 +54,7 @@
 						<a href="#">פארק המדע, רחובות</a><br />	
 						<a href="#">קולנוע כוכב, רמת השרון</a><br />	
 						<a href="#">קרית השרון, נתניה</a><br />	
+			</ul>			
 			</div>	
 			<div class="filials3">
 			<ul id="fourth5">
@@ -64,6 +67,7 @@
 						<a href="#">סנטרל פארק</a><br />	
 						<a href="#">רוטשילד</a><br />	
 						<a href="#">שוסטר</a><br />	
+			</ul>			
 			</div>
 						
 		</li>

@@ -55,18 +55,19 @@
 					לוקחים כדור מוצרלה, חותכים אותו ביד ל6 חתיכות יפות ומכניסים לקערת הערבוב 
 					(אותה קערת ערבוב עם הרוטב שנשאר). מוסיפים מעט מלח, מערבבים ומסדרים ביד 
 					חופשית על הסלט.</p>
+				
+					<hr class="hrsolid2">
+						<a id="print" href="#"><img src="_media/images/coffee/recipe/print.png" alt=""></a>	
+							<div id="fb-root"></div>
+							<script>(function(d, s, id) {
+							var js, fjs = d.getElementsByTagName(s)[0];
+							if (d.getElementById(id)) return;
+							js = d.createElement(s); js.id = id;
+							js.src = "//connect.facebook.net/ru_RU/all.js#xfbml=1";
+							fjs.parentNode.insertBefore(js, fjs);
+							}(document, 'script', 'facebook-jssdk'));</script>
+							<div class="fb-like" data-send="true" data-width="130" data-show-faces="false"></div>
 				</div>
-				<hr class="hrsolid2">
-				<a id="print" href="#"><img src="_media/images/coffee/recipe/print.png" alt=""></a>	
-				<div id="fb-root"></div>
-				<script>(function(d, s, id) {
-				var js, fjs = d.getElementsByTagName(s)[0];
-				if (d.getElementById(id)) return;
-				js = d.createElement(s); js.id = id;
-				js.src = "//connect.facebook.net/ru_RU/all.js#xfbml=1";
-				fjs.parentNode.insertBefore(js, fjs);
-				}(document, 'script', 'facebook-jssdk'));</script>
-				<div class="fb-like" data-send="true" data-width="130" data-show-faces="false"></div>
 			</div>
 
 				<div class="sidebar2"> 
@@ -79,20 +80,10 @@
 						<li><a href="#">מתכון לסלט המושבה</a></li>
 						</ul>
 						<hr class="hrsolid">
-					</div>
-						
-							<div class="arrowscupping">
-								<a href="#" id="arrow1">תפריט<img src="_media/images/coffee/cupping/arrow1.png" alt=""></a>
-								
-							</div>	
-			</div>		
-				
-				
-				
+						<a href="#" id="arrow1">תפריט<img src="_media/images/coffee/cupping/arrow1.png" alt=""></a>
+					</div>	
+				</div>		
 		</div>	
-		
-		</div>
-	
 	
 	<?php include_once ("_inc/footer.inc.php"); ?>
 </body>

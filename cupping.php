@@ -65,7 +65,7 @@
 					</div>
 						<div class="cupping2">
 							<img src="_media/images/coffee/cupping/tastesWheel.png" alt="" style="margin-top:25%;">
-							<span>לוח טעמים</span>
+							<h2>לוח טעמים</h2>
 								<hr class="hrdashed">
 									<p>בקרת האיכות הראשונה נערכת בארץ המקור. אחרי שנטעו את הקפה, גידלו אותו, קטפו
 										אותו, עיבדו אותו ומיינו אותו, הוא מוכן להתחיל במסע הארוך אל הצרכן.
@@ -75,11 +75,11 @@
 						</div>	
 							<div class="cup1">
 								<img src="_media/images/coffee/cupping/cup1.png" alt="">
-								<p>בדיקה של דוגמא</p>
+								<h2>בדיקה של דוגמא</h2>
 							</div>
 							<div class="cup2">	
 								<img src="_media/images/coffee/cupping/cup2.png" alt="">
-								<p>מעבדת קפה</p>
+								<h2>מעבדת קפה</h2>
 							</div>
 								<hr class="hrdashed">
 							<div class="cup3">

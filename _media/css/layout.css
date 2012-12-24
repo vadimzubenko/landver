@@ -122,7 +122,7 @@ h4, p{ margin:0; }
 /* End Header */
 
 /*Wrapper*/
-.wrapper {width: 980px; margin: 0 auto; margin-bottom: 110px;}
+.wrapper {width: 980px; margin: 0 auto;}
 .fb_iframe_widget {float:left; margin-top:20px;}
 .iframe {background: url ("../images/home/home_facebookFrame.png"); float:left; }
 
@@ -142,34 +142,25 @@ h4, p{ margin:0; }
 .aromatinfo {padding-right:20px; padding-bottom:20px; padding-top:20px;}
 .aromatinfo p, .aromatinfo h3 {color:#573d39;}
 .aromatinfo h3 {padding-top:20px; padding-bottom:10px; font-family: 'maccabiblockbold'; }
-.aromatinfo p {font-family: 'maccabiblockbold';}
 .cupping {height: 45px; width: 480px; background:url("../images/coffee/cupping/cupping.png"); }
 .cupping h2 {text-transform:uppercase; color:#f3edd8; font-family: 'maccabiblockblack'; font-size: 23px; padding: 8px 15px;}
-.cupping p, .cupping2 p, .cup3 p, .cup6 p {font-size:14px; color: #573d39; padding: 15px 1px 15px 0px; text-align: justify;}
-.cupping p {font-family: 'maccabiblockblack';}
-.cupping2 p, .cup3 p, .cup6 p {font-family: 'maccabiblockbold';}
+.cupping p, .cupping2 p, .cup3 p, .cup6 p {font-size:14px; color: #573d39; padding: 15px 0px 15px 0px; text-align: justify;}
+.cupping2 #p3 {font-size:14px; font-weight:bold;}
+.cupping2 h2 {font-size: 13px; font-weight:bold; text-align: center;}
 .cupping2 span {font-size: 14px; color: #573d39; font-family: 'maccabiblockblack'; margin-right: 45%; }
-.hrdashed {background:url("../images/coffee/taarovot/hr2.png"); height: 1px; width: 480px; border:0;}
-.cup1, .cup2 {text-align:center; color;#573d39; font-size:13px; font-family: 'maccabiblockblack'; padding-top:25px; padding-bottom:5px;}
+.cup1, .cup2 {text-align:center; color;#573d39; font-size:13px; padding-top:25px; padding-bottom:5px;}
 .cup1, .cup3 {float: left;}
-.cup2 {float:right;}
 .cup4 {padding-top: 25px; float: left;}
 .cup5 img {padding-top: 15px; padding-right: 5px;}
-.cup5 h1 {font-size: 13px; text-align:center; padding-bottom: 5px; padding-top: 5px;}
+.cup5 h1, .cup1 h2, .cup2 h2 {font-size: 13px; text-align:center; padding-bottom: 5px; padding-top: 5px;}
 #arrow1, #arrow2 {padding-top:12px; font-size: 13px; font-family: 'maccabiblockblack'; color:#573d39;}
 #arrow1 {float: left;}
 #arrow2 {float: right;}
-.hrsolid2 {background:url("../images/coffee/taarovot/hr1.png"); height: 1px; width: 480px; border:0;}
 #arrow1 img, #arrow3 img {margin-right: 5px;}
 #arrow2 img{margin-left: 5px;}
 
+/*Masoret Shel = "Cupping page style"*/
 
-/*Masoret Shel*/
-.tradition {height: 45px; width: 480px; background:url("../images/coffee/cupping/cupping.png");}
-.tradition h2 {text-transform:uppercase; color:#fff; font-family: 'maccabiblockblack'; font-size: 23px; padding: 8px 15px;}
-.tradition2 h2 {font-size: 14px; color: #573d39; padding-top:5px; padding-bottom:5px; text-align:center;}
-.tradition p, .tradition2 p {font-size:14px; color: #573d39; padding-bottom: 25px; font-family: 'maccabiblockbold';}
-.tradition2 h3 {font-size:14px; color: #573d39; padding: 15px 0 10px 0; font-family: 'maccabiblockblack';}
 
 /*Tahalih*/
 .firing {height: 45px; width: 480px; background:url("../images/coffee/cupping/cupping.png"); }
@@ -186,10 +177,10 @@ h4, p{ margin:0; }
 .childmenu {width: 570px; height: 330px; float: left; background-color: #e7524c; padding: 5px;}
 .child1 {height: 100%; border: 1px solid #fff;}
 .child1 p {border-bottom: 1px dashed #fff;}
-.children {list-style-type: none; padding: 20px 15px 5px 10px; font-family: 'maccabiblockblack';}
+.children {list-style-type: none; padding: 20px 15px 5px 10px;}
 .children li span {color:#fabb00; font-size:16px; font-family: 'maccabiblockblack';}
 .children #li1 {color:#fabb00;font-size: 24px; padding-bottom: 10px; border-bottom: 1px dashed #fff;}
-.children li {font-size:13px; padding-top: 10px; font: arial; color: white; height: 30px;}
+.children li {font-size:14px; padding-top: 10px; color: white; height: 30px;}
 .children #li2 {border-bottom: 1px dashed #fff;}
 .children #li3 {border:none;}
 .kids {position: relative; bottom: 46%; right: 42.1%;}
@@ -203,9 +194,10 @@ h4, p{ margin:0; }
 .landverchild {height: 100%; border: 1px solid white; color:#fff; }
 .landverchild h1 {font-size: 50px; }
 .info {padding: 25px 20px;}
-.info p {padding-top:10px; font-family: 'maccabiblockbold'; font-size:14px;}
+.info p {padding-top:10px; font-size:14px;}
 .info span {color: #fabb00; font-size:17px; font-family: 'maccabiblockbold';}
 .kids2 {position: relative; left: 6.2%; margin-top: 7%;}
+*+html .kids2 {right:2%;}
 
 /* Taarovot1*/
 #products {width:500px; height:660px; float:left; margin-bottom: 110px;}
@@ -213,8 +205,8 @@ h4, p{ margin:0; }
 .photos:last-child {float:right; padding-right: 6px;}
 .mixture {height: 45px; width: 315px; background:url("../images/coffee/taarovot/mixture.png"); }
 .mixture h2 {text-transform: uppercase; color: #f3edd8; font-family: 'maccabiblockblack'; font-size: 23px; padding: 8px 15px;}
-.mixture p {font-size:14px; color: #573d39;  font-family: 'maccabiblockbold'; padding-top:15px; float:left; padding-bottom: 10px;}
-.hrsolid {background:url("../images/coffee/taarovot/hr1.png"); height: 1px; width: 315px; border:0;float:right;}
+.mixture p {font-size:14px; color: #573d39; padding-top:15px; float:left; padding-bottom: 10px;}
+
 
 
 /*Taarovot2*/
@@ -227,7 +219,6 @@ h4, p{ margin:0; }
 .signs {width:510px; height:100px; float:left; padding-top:20px;}
 #products2 {width:145px; height:40px; padding-right: 22px; float: left; padding-top: 5px;}
 .mix {height: 45px; width: 480px; background:url("../images/coffee/cupping/cupping.png"); margin-bottom: 20px;}
-#mix h2 {text-transform: uppercase; color: #f3edd8; font-family: 'maccabiblockblack'; font-size: 23px; padding: 8px 15px;}
 .ulchar {list-style-type: none; padding-left: 5%;}
 #rightchar {float: right; margin-top: 4%; padding-bottom: 5%;}
 #leftchar {float: left; font-size:18px; color:#fff; margin-top: 2%;}
@@ -253,24 +244,48 @@ h4, p{ margin:0; }
 .recipe img {padding-top:20px;}
 .recipe h3 {font-size:14px; font-family: 'maccabiblockblack'; color: #573d39; padding:5px 0;}
 .recipe {width: 480px; font-size:14px; font-family: 'maccabiblockbold'; color: #573d39; padding:5px 0;}
-#print {float:left;margin-top: 15px;}
-#facebook {float:right; margin-top: 20px;}
-#like {float: left;}
 .mixture ul {width:480px;float:right; font-family: 'maccabiblockblack'; display:block; list-style-position: outside; list-style-type:none; line-height: 2;}
-.mixture ul li  a{display:block; color:#90736c;}
+.mixture ul li  a{display:block; color:#90736c; padding-right: 13px;}
 .mixture ul li a:link{color:#90736c;}
 .mixture ul li a:hover {color:#573d39; background:url("../images/coffee/recipe/marker.png") no-repeat center right;}
 .fb-like {float:right; margin-bottom: 110px;}
 
 /*Tips*/
 .tips {float:left; width:315px;}
-.tips h2 {font-size:20px; color:#90736c; text-transform: uppercase; font-family: 'maccabiblockblack'; float: right;}
-.tips h3 {font-size:20px; color:#90736c; text-transform: uppercase; font-family: 'maccabiblockblack'; float: right; padding-top:60px;}
-.hrdashed2 {background:url("../images/coffee/taarovot/hr2.png"); height: 1px; width: 315px; border:0;}
-.tips p {padding-top:5px; padding-bottom:15px; font-size:14px; color: #90736c; font-family: 'maccabiblockblack';}
+.tips h2 {font-size:20px; color:#90736c; text-transform: uppercase; font-family: 'maccabiblockblack';}
+.tips h3 {font-size:20px; color:#90736c; text-transform: uppercase; font-family: 'maccabiblockblack'; padding-top:60px;}
+.tips p {padding-top:5px; padding-bottom:15px; font-size:14px; color: #90736c;}
 #arrow3 {padding-top:12px; font-size: 13px; font-family: 'maccabiblockblack'; color:#90736c; float:left;}
+.formp1 {font-weight:bold; font-size: 14px; padding-top:25px; padding-bottom:25px; color:#573d39}
+.blocks label {color:#573d39; padding-top: 22px; float: right;}
+.blocks .text {width: 415px; height: 40px; float: left; background-color: transparent; border: none; border-bottom: 1px dashed #573d39;}
+.send {display:block; width:145px; height:20px; float:left; margin-top: 20px;border: none; }
+.file {display:block; width:250px; height:20px; float:left; margin-top: 20px; margin-left: 20px; background:url("../images/coffee/zakyanut/button2.png"); border: none;}
 
+/*Menu 2*/
+.events li {font-size:14px; color:#573d39;}
+.events #span2 {color:#573d39; font-size:16px; font-family: 'maccabiblockblack';}
+#ev1 {line-height: 1.4;}
+.mixture .right, .mixture .left {width: 150px; font-family: 'maccabiblockblack'; display: block; list-style-position: outside; list-style-type: none; line-height: 2;}
+.mixture .right  {float:right;}
+.mixture .left {float:left;}
 
+/*HR lines style*/
+.hrsolid2 {background:url("../images/coffee/taarovot/hr1.png"); height: 1px; width: 480px; border:0;}
+.hrsolid {background:url("../images/coffee/taarovot/hr1.png"); height: 1px; width: 315px; border:0;}
+.hrdashed2 {background:url("../images/coffee/taarovot/hr2.png"); height: 1px; width: 315px; border:0;}
+.hrdashed {background:url("../images/coffee/taarovot/hr2.png"); height: 1px; width: 480px; border:0;}
+
+/*Menu 1 */
+.contentp {padding-bottom:15px; font-size:14px;}
+.wrapper3 {height:800px; width:980px; margin:0 auto;}
+
+/*Snifim*/
+#twentyfour{float: left;}
+#inf {font-size:16px; font-family: 'maccabiblockbold'; color: #573d39; padding:5px 0;  text-align: right;}
+.left2, .center, .right2 {width: 145px; font-family: 'maccabiblockblack'; display: block; list-style-position: outside; list-style-type: none; line-height: 2;}
+.left2, .center {float: left;}
+.right2 {float:right;}
 
 
 /* Footer  */
@@ -284,7 +299,7 @@ h4, p{ margin:0; }
 #footerlinksWrapper li.fourth{ width:357px; }
 #footerlinksWrapper li.fifth{ width:60px; }
 #footerlinksWrapper li.sixth{ width:55px; }
-#footerlinksWrapper li.last{ border:0 none; padding-left:0; width:105px; font-size: 12px; }
+#footerlinksWrapper li.last{ border:0 none; padding-left:0; width:105px; font-size: 12px; float:right;}
 #footerlinksWrapper li.last h3, #footerlinksWrapper li.sixth h3, #footerlinksWrapper li.fifth h3, #footerlinksWrapper li.fourth h3, #footerlinksWrapper li.third h3, #footerlinksWrapper li.second h3, #footerlinksWrapper li.first h3 {color: #ded5c3; font-weight: bold; font-size: 12px; }
 #footerlinksWrapper li.sixth h3, #footerlinksWrapper li.fifth h3 {text-align: center;}
 #footerlinksWrapper li.last a,  #footerlinksWrapper li.third a, #footerlinksWrapper li.second a{ color:#cfc4ad; line-height: 1.5;}
