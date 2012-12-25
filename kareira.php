@@ -27,45 +27,52 @@
 						<p class="formp3">
 							<label id="label1">*שם מלא:</label>
 								<input type="text" class="text" name="" />
+								
 						</p>
 						<p class="formp3">
 							<label id="label1">**טלפון:</label>
 								<input type="text" class="text" name="" />
 						</p>
 						<p class="formp3">
-						<label id="label1">**כתובת:</label>
+						<label id="label1">*כתובת:</label>
 							<input type="text" class="text" name="" />
 						</p>
 						<p class="formp3">
-						<label id="label1">**גיל:</label>
+						<label id="label1">*גיל:</label>
 							<input type="text" class="text" name="" />
 						</p>
 						<p class="formp3">
-						<label id="label1">*</label>
+						<label id="label1">אימייל:</label>
 							<input type="text" class="text" name="" />
 						</p>
+						<p class="formp3">
+						<label id="label1"></label>
+							<input type="text" class="text" name="" />
+						</p>
+						
+						
+
 						<span class="formspan">
 							<select  id="select1" size="1">
-								<option selected="selected">בחירת משרה<option>
+								<option selected="selected">בחירת משרה</option>
 							</select>
 							<label id="label2">*משרה:</label>
 						</span>
 						<span class="formspan">
 							<select  id="select1" size="1">
-								<option selected="selected">בחירת סניף<option>
+								<option selected="selected">בחירת סניף</option>
 							</select>
 							<label id="label2">*בסניף:</label>
 						</span>	
 						<span class="formspan">
 							<select  id="select1" size="1">
-								<option selected="selected">בחירת כמות משמרות שבועית<option>
+								<option selected="selected">בחירת כמות משמרות שבועית</option>
 							</select>
 							<label id="label2">*משמרות:</label>					
 						</span>
 
 					<p class="formp3">
 						<label></label>
-							
 							<script>$('#file').customFileInput();</script>
 							<button class="file"><input type="file" name="file" id="file" /></button>
 							
@@ -73,13 +80,13 @@
 					</p>
 
 					<p class="formp3">
-						<label>*גיל:</label>
 							<input type="text" class="text2" name="" />
+							<label id="label3">ניסיון רלוונטי בתחום:</label>
 					</p>
 					
 					<p class="formp3">
-						<label>*גיל:</label>
 							<input type="text" class="text2" name="" />
+							<label id="label3">הערות:</label>
 					</p>
 					
 					<button class="send"><img src="_media/images/coffee/zakyanut/button1.png" alt=""><input type="submit" value="SEND"/></button>
