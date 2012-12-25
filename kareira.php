@@ -89,7 +89,7 @@
 							<label id="label3">הערות:</label>
 					</p>
 					
-					<button class="send"><img src="_media/images/coffee/zakyanut/button1.png" alt=""><input type="submit" value="SEND"/></button>
+					<button class="send2"><input type="submit" value=""/></button>
 					
 				</form>
 

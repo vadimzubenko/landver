@@ -302,11 +302,14 @@ h4, p{ margin:0; }
 .blocks2 label {color:#573d39; padding-top: 45px; float: right;}
 .blocks2 .text {width: 255px; height: 40px; float: left; background-color: transparent; border: none; border-bottom: 1px dashed #573d39;}
 
-.send {display:block; float:left; margin-top: 20px;border: none; }
-#send {width:145px; height:20px; float:left; background:url("../images/coffee/zakyanut/button1.png"); border: none;}
+/*.send {display:block; float:left; margin-top: 20px;border: none; } */
+.send {width:145px; height:20px; float:left; background:url("../images/coffee/zakyanut/button1.png"); border: none;}
+
+.send2 {width:90px; height:20px; float:left; background:url("../images/coffee/zakyanut/button1.png"); border: none; cursor:pointer; margin-top:20px;}
+.send2 input {opacity:0;}
 
 .file {display:block; float:left; margin-top: 20px; border: none; width:250px; height:20px; background:url("../images/coffee/zakyanut/button2.png"); /*margin-left: 20px;*/}
-#file {width:255px; height:20px; position: relative; /*z-index:-1000;*/}
+#file {width:255px; height:20px; position: relative; /*z-index:-1000;*/ opacity: 0;}
 
 .blocks2 .text2 {width: 255px; height: 70px; float: left; background-color: transparent; border: none; border: 1px dashed #573d39; margin-top: 20px;}
 
@@ -315,6 +318,8 @@ h4, p{ margin:0; }
 #label2 {bottom: 161%; clear: both; color: #573D39; float: right; left: 30%; position: relative;}
 .formspan {width: 255px; height: 40px; float: left; background-color: transparent; border: none; border-bottom: 1px dashed #573d39; }
 #label3 {width: 50px; padding-top: 5%;}
+
+
 
 
 /* Footer  */
