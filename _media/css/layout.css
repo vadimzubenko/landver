@@ -144,9 +144,11 @@ h4, p{ margin:0; }
 .aromatinfo h3 {padding-top:20px; padding-bottom:10px; font-family: 'maccabiblockbold'; }
 .cupping {height: 45px; width: 480px; background:url("../images/coffee/cupping/cupping.png"); }
 .cupping h2 {text-transform:uppercase; color:#f3edd8; font-family: 'maccabiblockblack'; font-size: 23px; padding: 8px 15px;}
-.cupping p, .cupping2 p, .cup3 p, .cup6 p {font-size:14px; color: #573d39; padding: 15px 0px 15px 0px; text-align: justify;}
+.cupping p, .cupping2 p, .cup3 p, .cup6 p {font-size:14px; color: #573d39; padding: 0px 0px 15px 0px; text-align: justify;}
 .cupping2 #p3 {font-size:14px; font-weight:bold;}
 .cupping2 h2 {font-size: 13px; font-weight:bold; text-align: center;}
+.cupping2 h3 {font-size: 13px; font-weight:bold;}
+
 .cupping2 span {font-size: 14px; color: #573d39; font-family: 'maccabiblockblack'; margin-right: 45%; }
 .cup1, .cup2 {text-align:center; color;#573d39; font-size:13px; padding-top:25px; padding-bottom:5px;}
 .cup1, .cup3 {float: left;}
