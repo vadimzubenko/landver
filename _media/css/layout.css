@@ -147,7 +147,7 @@ h4, p{ margin:0; }
 .cupping p, .cupping2 p, .cup3 p, .cup6 p {font-size:14px; color: #573d39; padding: 0px 0px 15px 0px; text-align: justify;}
 .cupping2 #p3 {font-size:14px; font-weight:bold;}
 .cupping2 h2 {font-size: 13px; font-weight:bold; text-align: center;}
-.cupping2 h3 {font-size: 13px; font-weight:bold;}
+.cupping2 h3 {font-size: 14px; font-weight:bold;}
 
 .cupping2 span {font-size: 14px; color: #573d39; font-family: 'maccabiblockblack'; margin-right: 45%; }
 .cup1, .cup2 {text-align:center; color;#573d39; font-size:13px; padding-top:25px; padding-bottom:5px;}
@@ -305,18 +305,15 @@ h4, p{ margin:0; }
 .send {display:block; float:left; margin-top: 20px;border: none; }
 #send {width:145px; height:20px; float:left; background:url("../images/coffee/zakyanut/button1.png"); border: none;}
 
+.file {display:block; float:left; margin-top: 20px; border: none; width:250px; height:20px; background:url("../images/coffee/zakyanut/button2.png"); /*margin-left: 20px;*/}
+#file {width:255px; height:20px; position: relative; /*z-index:-1000;*/}
 
-
-
-.file {display:block; float:left; margin-top: 20px; border: none; width:250px; height:20px; background:url("../images/coffee/zakyanut/button2.png"); margin-left: 20px;}
-#file {width:250px; height:20px; margin-left: 20px; position: relative; z-index:-1000;}
-
-
+.blocks2 .text2 {width: 255px; height: 70px; float: left; background-color: transparent; border: none; border: 1px dashed #573d39; margin-top: 20px;}
 
 
 #select1 {border:0; background: transparent; direction: ltr;  float: right;}
 #label2 {bottom: 161%; clear: both; color: #573D39; float: right; left: 30%; position: relative;}
-.formspan {width: 255px; height: 40px; float: left; background-color: transparent; border: none; border-bottom: 1px dashed #573d39;}
+.formspan {width: 255px; height: 40px; float: left; background-color: transparent; border: none; border-bottom: 1px dashed #573d39; }
 
 
 

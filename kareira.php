@@ -25,24 +25,24 @@
 					<p class="formp2">רשת קפה לנדוור מודה לך על שפנית אלינו בחיפוש משרה, נשמח לקבל אותך לאחד ממגוון התפקידים הקיימים אצלנו.</p>
 					<p class="formp2">אנא מלא/י את הטופס ואנו נחזור אליך בהקדם. השדות המסומנים בכוכבית(*) הינם שדות חובה.</p>
 						<p class="formp3">
-							<label>*שם מלא:</label>
-								<input type="text" class="text" name="name" />
+							<label id="label1">*שם מלא:</label>
+								<input type="text" class="text" name="" />
 						</p>
 						<p class="formp3">
-							<label>*טלפון:</label>
-								<input type="text" class="text" name="company" />
+							<label id="label1">**טלפון:</label>
+								<input type="text" class="text" name="" />
 						</p>
 						<p class="formp3">
-						<label>*כתובת:</label>
-							<input type="text" class="text" name="email" />
+						<label id="label1">**כתובת:</label>
+							<input type="text" class="text" name="" />
 						</p>
 						<p class="formp3">
-						<label>*גיל:</label>
-							<input type="text" class="text" name="email" />
+						<label id="label1">**גיל:</label>
+							<input type="text" class="text" name="" />
 						</p>
 						<p class="formp3">
-						<label></label>
-							<input type="text" class="text" name="email" />
+						<label id="label1">*</label>
+							<input type="text" class="text" name="" />
 						</p>
 						<span class="formspan">
 							<select  id="select1" size="1">
@@ -63,15 +63,27 @@
 							<label id="label2">*משמרות:</label>					
 						</span>
 
-
-
-						
 					<p class="formp3">
 						<label></label>
-							<button class="send"><img src="_media/images/coffee/zakyanut/button1.png" alt=""><input type="submit" value="SEND"/></button>
+							
 							<script>$('#file').customFileInput();</script>
 							<button class="file"><input type="file" name="file" id="file" /></button>
+							
+							
 					</p>
+
+					<p class="formp3">
+						<label>*גיל:</label>
+							<input type="text" class="text2" name="" />
+					</p>
+					
+					<p class="formp3">
+						<label>*גיל:</label>
+							<input type="text" class="text2" name="" />
+					</p>
+					
+					<button class="send"><img src="_media/images/coffee/zakyanut/button1.png" alt=""><input type="submit" value="SEND"/></button>
+					
 				</form>
 
 			</div>
