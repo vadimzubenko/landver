@@ -17,7 +17,7 @@
 </head>
 <body>
 	<?php include_once ("_inc/top.inc.php"); ?>
-		<div class="wrapper">
+		<div class="wrapper4">
 			<div class="content">
 				<div class="aromat">
 					<iframe width="410" height="380" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.co.il/maps?hl=iw&amp;safe=off&amp;q=Ibn+Gabirol+70,+Tel+Aviv-Yafo,+Israel&amp;ie=UTF8&amp;hq=&amp;hnear=%D7%90%D7%91%D7%9F+%D7%92%D7%91%D7%99%D7%A8%D7%95%D7%9C+70,+%D7%AA%D7%9C+%D7%90%D7%91%D7%99%D7%91+%D7%99%D7%A4%D7%95&amp;gl=il&amp;t=m&amp;ll=32.080466,34.781342&amp;spn=0.027635,0.035105&amp;z=14&amp;iwloc=A&amp;output=embed"></iframe>
@@ -32,42 +32,41 @@
 						<p id="inf">פתוח א’-שבת 24 שעות ביממה</p>
 						<p>באחד מרחובותיה המרכזיים והסואנים של תל אביב, שוכן לו כבר יותר משש שנים הסניף הראשון של רשת לנדוור. המקום הביתי והקטן הפך ברבות השנים לבית קפה שוקק חיים, שמשרת מדי יום מאות לקוחות נאמנים.</p>
 						<hr class="hrsolid2">
-						
-						
+
 						<ul class="left2">
-							<li><a href="#">נשנושים</a></li>
-							<li><a href="#">מחבתות</a></li>
-							<li><a href="#">מתוקים</a></li>
-							<li><a href="#">קפה</a></li>
-							<li><a href="#">שתיה חמה</a></li>
-							<li><a href="#">קרים</a></li>
+							<h4>ירושלים והסביבה</h4>
+							<li><a href="#">vv</a></li>
+							<hr class="hrdashed3">
+							<h4>צפון</h4>
+							<li><a href="#">סטריט מול, רמת ישי</a></li>
+							<hr class="hrdashed3">
+							<h4>דרום</h4>
 							<li><a href="#">שתיה קלה</a></li>
-							<li><a href="#">בירה</a></li>
-							<li><a href="#">יין</a></li>
 						</ul>
 						
 						<ul class="center">
-							<li><a href="#">האוכל בלנדוור</a></li>
-							<li><a href="#">ארוחות בוקר</a></li>
-							<li><a href="#">סלטים</a></li>
-							<li><a href="#">כריכים</a></li>
-							<li><a href="#">טוסטים</a></li>
-							<li><a href="#">פוקאצ’ות</a></li>
-							<li><a href="#">ראפים</a></li>
-							<li><a href="#">תפריט ילדים</a></li>
-							<li><a href="#">מרקים</a></li>
+							<h4>ירושלים והסביבה</h4>
+							<li><a href="#">אם הדרך, כפר ויתקין</a></li>
+							<li><a href="#">אם המושבות, פתח תקווה</a></li>
+							<li><a href="#">גבעתיים</a></li>
+							<li><a href="#">הוד השרון</a></li>
+							<li><a href="#">כיכר דה שליט, הרצליה</a></li>
+							<li><a href="#">סינמה סיטי, ראשון לציון</a></li>
+							<li><a href="#">פארק המדע, רחובות</a></li>
+							<li><a href="#">קולנוע כוכב, רמת השרון</a></li>
+							<li><a href="#">קרית השרון, נתניה</a></li>
 						</ul>
 						
 						<ul class="right2">
-							<li><a href="#">האוכל בלנדוור</a></li>
-							<li><a href="#">ארוחות בוקר</a></li>
-							<li><a href="#">סלטים</a></li>
-							<li><a href="#">כריכים</a></li>
-							<li><a href="#">טוסטים</a></li>
-							<li><a href="#">פוקאצ’ות</a></li>
-							<li><a href="#">ראפים</a></li>
-							<li><a href="#">תפריט ילדים</a></li>
-							<li><a href="#">מרקים</a></li>
+						<h4>תל אביב</h4>
+							<li><a href="#">אבן גבירול</a></li>
+							<li><a href="#">גן מאיר</a></li>
+							<li><a href="#">דיזנגוף</a></li>
+							<li><a href="#">מרינה ביסטרו</a></li>
+							<li><a href="#">נמל</a></li>
+							<li><a href="#">סנטרל פארק</a></li>
+							<li><a href="#">רוטשילד</a></li>
+							<li><a href="#">שוסטר</a></li>
 						</ul>
 						
 						

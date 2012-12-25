@@ -80,7 +80,7 @@
 	</p>
 	<p class="formp2">
 		<label>קו”ח:</label>
-		<button class="send"><img src="_media/images/coffee/zakyanut/button1.png" alt=""><input type="submit" value="SEND"/></button>
+		<button class="send"><input type="submit" value="" id="send"/></button>
 		<script>$('#file').customFileInput();</script>
 		<button class="file"><input type="file" name="file" id="file" /></button>
 	</p>

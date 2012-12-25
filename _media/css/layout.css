@@ -259,8 +259,7 @@ h4, p{ margin:0; }
 .formp1 {font-weight:bold; font-size: 14px; padding-top:25px; padding-bottom:25px; color:#573d39}
 .blocks label {color:#573d39; padding-top: 22px; float: right;}
 .blocks .text {width: 415px; height: 40px; float: left; background-color: transparent; border: none; border-bottom: 1px dashed #573d39;}
-.send {display:block; width:145px; height:20px; float:left; margin-top: 20px;border: none; }
-.file {display:block; width:250px; height:20px; float:left; margin-top: 20px; margin-left: 20px; background:url("../images/coffee/zakyanut/button2.png"); border: none;}
+
 
 /*Menu 2*/
 .events li {font-size:14px; color:#573d39;}
@@ -275,17 +274,48 @@ h4, p{ margin:0; }
 .hrsolid {background:url("../images/coffee/taarovot/hr1.png"); height: 1px; width: 315px; border:0;}
 .hrdashed2 {background:url("../images/coffee/taarovot/hr2.png"); height: 1px; width: 315px; border:0;}
 .hrdashed {background:url("../images/coffee/taarovot/hr2.png"); height: 1px; width: 480px; border:0;}
+.hrdashed3 {background:url("../images/coffee/taarovot/hr2.png"); height: 1px; width: 145px; border:0;}
+
 
 /*Menu 1 */
 .contentp {padding-bottom:15px; font-size:14px;}
 .wrapper3 {height:800px; width:980px; margin:0 auto;}
 
 /*Snifim*/
-#twentyfour{float: left;}
+#twentyfour{float: left; padding-top:10px;}
 #inf {font-size:16px; font-family: 'maccabiblockbold'; color: #573d39; padding:5px 0;  text-align: right;}
-.left2, .center, .right2 {width: 145px; font-family: 'maccabiblockblack'; display: block; list-style-position: outside; list-style-type: none; line-height: 2;}
+.left2, .center, .right2 {width: 145px; display: block; list-style-position: outside; list-style-type: none; line-height: 1.5;}
+.center {width:160px; margin-left: 30px;}
 .left2, .center {float: left;}
 .right2 {float:right;}
+.left2 h4, .center h4, .right2 h4 {font-size:16px; color: #90736c; font-family: 'maccabiblockblack'; }
+.left2 li a, .center li a, .right2 li a  {color: #90736c; font-size:14px;}
+.center li a, .right2 li a {padding-right: 13px; display:block;}
+.center li a:hover, .right2 li a:hover {color:#573d39; background:url("../images/coffee/recipe/marker.png") no-repeat center right;}
+.wrapper4 {height:525px; width:980px; margin:0 auto;}
+
+/*Kareira*/
+.blocks2 {width:320px; float: left;}
+.formp2 {font-weight:bold; font-size: 14px; padding-bottom:25px; color:#573d39}
+.blocks2 label {color:#573d39; padding-top: 45px;}
+.blocks2 .text {width: 255px; height: 40px; float: left; background-color: transparent; border: none; border-bottom: 1px dashed #573d39;}
+
+.send {display:block; float:left; margin-top: 20px;border: none; }
+#send {width:145px; height:20px; float:left; background:url("../images/coffee/zakyanut/button1.png"); border: none;}
+
+
+
+
+.file {display:block; float:left; margin-top: 20px; border: none; width:250px; height:20px; background:url("../images/coffee/zakyanut/button2.png"); margin-left: 20px;}
+#file {width:250px; height:20px; margin-left: 20px; position: relative; z-index:-1000;}
+
+
+
+
+#select1 {border:0; background: transparent; direction: ltr;  float: right;}
+#label2 {bottom: 161%; clear: both; color: #573D39; float: right; left: 30%; position: relative;}
+.formspan {width: 255px; height: 40px; float: left; background-color: transparent; border: none; border-bottom: 1px dashed #573d39;}
+
 
 
 /* Footer  */
