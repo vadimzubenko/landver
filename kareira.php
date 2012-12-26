@@ -7,94 +7,88 @@
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 	
 	<link rel="stylesheet" type="text/css" href="_media/css/layout.css" />
-	
+	<link href="css/basic.css" type="text/css" rel="stylesheet" />
+			<script type="text/javascript" src="http://filamentgroup.github.com/EnhanceJS/enhance.js"></script>		
+			<script type="text/javascript">
+				// Run capabilities test
+				enhance({
+					loadScripts: [
+						'https://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js',
+						'js/jQuery.fileinput.js',
+						'js/example.js'
+					],
+					loadStyles: ['css/enhanced.css']	
+				});   
+		    </script>
 	<script type="text/javascript" src="_media/js/jquery-1.8.3.min.js"></script>
 	<script type="text/javascript" src="_media/js/main.js"></script>
-	<style type="text/css">
-		
-	</style>
+	<style type="text/css"></style>
 
 </head>
 <body>
 	<?php include_once ("_inc/top.inc.php"); ?>
 	
 		<div class="wrapper">
-			<div class="content">
-
+			<div class="content2">
+			
+				<p>רשת קפה לנדוור מודה לך על שפנית אלינו בחיפוש משרה, נשמח לקבל אותך לאחד ממגוון התפקידים הקיימים אצלנו.</p>
+				<p>אנא מלא/י את הטופס ואנו נחזור אליך בהקדם. השדות המסומנים בכוכבית(*) הינם שדות חובה.</p>
+				
 				<form id="form" class="blocks2" action="#" method="post">
-					<p class="formp2">רשת קפה לנדוור מודה לך על שפנית אלינו בחיפוש משרה, נשמח לקבל אותך לאחד ממגוון התפקידים הקיימים אצלנו.</p>
-					<p class="formp2">אנא מלא/י את הטופס ואנו נחזור אליך בהקדם. השדות המסומנים בכוכבית(*) הינם שדות חובה.</p>
-						<p class="formp3">
-							<label id="label1">*שם מלא:</label>
-								<input type="text" class="text" name="" />
-								
-						</p>
-						<p class="formp3">
-							<label id="label1">**טלפון:</label>
-								<input type="text" class="text" name="" />
-						</p>
-						<p class="formp3">
-						<label id="label1">*כתובת:</label>
+					
+						<label>*שם מלא:</label>
 							<input type="text" class="text" name="" />
-						</p>
-						<p class="formp3">
-						<label id="label1">*גיל:</label>
+					
+						<label>**טלפון:</label>
 							<input type="text" class="text" name="" />
-						</p>
-						<p class="formp3">
-						<label id="label1">אימייל:</label>
-							<input type="text" class="text" name="" />
-						</p>
-						<p class="formp3">
-						<label id="label1"></label>
-							<input type="text" class="text" name="" />
-						</p>
-						
-						
 
-						<span class="formspan">
-							<select  id="select1" size="1">
+						<label>*כתובת:</label>
+							<input type="text" class="text" name="" />
+
+						<label>*גיל:</label>
+							<input type="text" class="text" name="" />
+
+						<label>אימייל:</label>
+							<input type="text" class="text" name="" />
+
+						<label></label>
+							<input type="text" class="text" name="" />
+
+						<span class="formspan">	
+							<label>*משרה:</label>
+							<select  class="select1" size="1">
 								<option selected="selected">בחירת משרה</option>
 							</select>
-							<label id="label2">*משרה:</label>
+							
 						</span>
+						
 						<span class="formspan">
-							<select  id="select1" size="1">
+							<label>*בסניף:</label>
+							<select  class="select1" size="1">
 								<option selected="selected">בחירת סניף</option>
 							</select>
-							<label id="label2">*בסניף:</label>
 						</span>	
+						
 						<span class="formspan">
-							<select  id="select1" size="1">
+							<label>*משמרות:</label>	
+							<select  class="select1" size="1">
 								<option selected="selected">בחירת כמות משמרות שבועית</option>
 							</select>
-							<label id="label2">*משמרות:</label>					
+											
 						</span>
 
-					<p class="formp3">
-						<label></label>
-							<script>$('#file').customFileInput();</script>
-							<button class="file"><input type="file" name="file" id="file" /></button>
-							
-							
-					</p>
+						<label>ניסיון רלוונטי בתחום:</label>
+							<input type="text" class="text2" name="" />
 
-					<p class="formp3">
+						<label>הערות:</label>
 							<input type="text" class="text2" name="" />
-							<label id="label3">ניסיון רלוונטי בתחום:</label>
-					</p>
-					
-					<p class="formp3">
-							<input type="text" class="text2" name="" />
-							<label id="label3">הערות:</label>
-					</p>
+
 					
 					<button class="send2"><input type="submit" value=""/></button>
 					
 				</form>
 
 			</div>
-			
 			
 				<div class="sidebar"> 	
 					<div class="cupping">
@@ -121,7 +115,19 @@
 								<p>זכיינים ותיקים - סדרת מפגשים שנתית שעוברים זכייני הרשת הותיקים. מסלול מקצועי והקניית מודלים מעולם המסעדנות, מצויינות בניהול, חניכה ושימור עובדים, טיפול בהתנגדויות צוות, יישום בשטח ושימוש נכון בארגז הכלים הרשתי. </p>	
 						</div>	
 				</div>
+
 		</div>
+	
+								<div>
+		<fieldset>
+			<label for="file">Choose photo</label>
+			<input type="file" name="file" id="file" />
+		</fieldset>
+	</form>
+	</div>
+					
+
+	
 	
 	<?php include_once ("_inc/footer.inc.php"); ?>
 </body>

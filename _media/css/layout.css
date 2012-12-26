@@ -127,11 +127,11 @@ h4, p{ margin:0; }
 .iframe {background: url ("../images/home/home_facebookFrame.png"); float:left; }
 
 /* Home*/
-.images {float:left; margin:0 auto;}
-#img1, #img2, #img4  {float:left;}
-#img2 {margin-left: 20px}
-#img4, #img5 {margin-left: 20px; margin-top:20px;}
-#img5 {float: right;}
+.images {float:left; margin:0 auto; margin-bottom: 110px;}
+.img1, .img2, .img4  {float:left;}
+.img2 {margin-left: 20px}
+.img4, .img5 {margin-left: 20px; margin-top:20px;}
+.img5 {float: right;}
 
 
 /* Cupping*/
@@ -285,7 +285,7 @@ h4, p{ margin:0; }
 
 /*Snifim*/
 #twentyfour{float: left; padding-top:10px;}
-#inf {font-size:16px; font-family: 'maccabiblockbold'; color: #573d39; padding:5px 0;  text-align: right;}
+.inf {font-size:16px; font-family: 'maccabiblockbold'; color: #573d39; padding:5px 0;  text-align: right;}
 .left2, .center, .right2 {width: 145px; display: block; list-style-position: outside; list-style-type: none; line-height: 1.5;}
 .center {width:160px; margin-left: 30px;}
 .left2, .center {float: left;}
@@ -297,27 +297,31 @@ h4, p{ margin:0; }
 .wrapper4 {height:525px; width:980px; margin:0 auto;}
 
 /*Kareira*/
-.blocks2 {width:320px; float: left;}
-.formp2 {font-weight:bold; font-size: 14px; padding-bottom:25px; color:#573d39}
-.blocks2 label {color:#573d39; padding-top: 45px; float: right;}
+.content2 {width:315px; float: left;}
+.blocks2 {width:320px; float: left; }
+.blocks2 label {color:#573d39; clear:both; float:right; padding-top: 19px; width:62px; text-align:left; font-size:14px; color:#573d39;}
+.content2 p{font-weight:bold; font-size: 14px; padding-bottom:25px; color:#573d39}
+.blocks2 .text2 {width: 255px; height: 70px; float: left; background-color: transparent; border: none; border: 1px dashed #573d39; margin-top: 20px;}
+.formspan {width: 255px; height: 40px; float: left; background-color: transparent; border: none; border-bottom: 1px dashed #573d39; }
 .blocks2 .text {width: 255px; height: 40px; float: left; background-color: transparent; border: none; border-bottom: 1px dashed #573d39;}
+.select1 {border:0; background: transparent; direction: ltr;  float: right;}
+.formspan label {padding-top:5px;}
 
-/*.send {display:block; float:left; margin-top: 20px;border: none; } */
-.send {width:145px; height:20px; float:left; background:url("../images/coffee/zakyanut/button1.png"); border: none;}
 
+
+.send {width:145px; height:20px; float:left; background:url("../images/coffee/zakyanut/button1.png"); border: none; cursor:pointer;}
 .send2 {width:90px; height:20px; float:left; background:url("../images/coffee/zakyanut/button1.png"); border: none; cursor:pointer; margin-top:20px;}
 .send2 input {opacity:0;}
 
-.file {display:block; float:left; margin-top: 20px; border: none; width:250px; height:20px; background:url("../images/coffee/zakyanut/button2.png"); /*margin-left: 20px;*/}
-#file {width:255px; height:20px; position: relative; /*z-index:-1000;*/ opacity: 0;}
+/*.file {display:block; float:left; margin-top: 20px; border: none; width:250px; height:20px; /*background:url("../images/coffee/zakyanut/button2.png"); */ cursor:pointer; /*margin-left: 20px;*/}
+/*#file {width:255px; height:20px; position: relative; /*z-index:-1000;*/ /*opacity: 0; cursor:pointer;} */
+/*.send {display:block; float:left; margin-top: 20px;border: none; } */
 
-.blocks2 .text2 {width: 255px; height: 70px; float: left; background-color: transparent; border: none; border: 1px dashed #573d39; margin-top: 20px;}
 
-#label1 {clear:both; float:right; padding-top: 26px;}
-#select1 {border:0; background: transparent; direction: ltr;  float: right;}
-#label2 {bottom: 161%; clear: both; color: #573D39; float: right; left: 30%; position: relative;}
-.formspan {width: 255px; height: 40px; float: left; background-color: transparent; border: none; border-bottom: 1px dashed #573d39; }
-#label3 {width: 50px; padding-top: 5%;}
+#file {position: absolute; height: 20px; cursor: pointer; background: transparent; border: 0; opacity: 0; -moz-opacity: 0; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0); z-index: 999; }
+.file {width: 255px; background: red; cursor: pointer; overflow: hidden; padding: 2px; border: 1px solid #444; -moz-border-radius:7px; -webkit-border-radius:7px; border-radius:7px;  position: relative; }
+
+
 
 
 
