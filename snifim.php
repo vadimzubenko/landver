@@ -19,17 +19,17 @@
 	<?php include_once ("_inc/top.inc.php"); ?>
 		<div class="wrapper4">
 			<div class="content">
-				<div class="aromat">
-					<iframe width="410" height="380" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.co.il/maps?hl=iw&amp;safe=off&amp;q=Ibn+Gabirol+70,+Tel+Aviv-Yafo,+Israel&amp;ie=UTF8&amp;hq=&amp;hnear=%D7%90%D7%91%D7%9F+%D7%92%D7%91%D7%99%D7%A8%D7%95%D7%9C+70,+%D7%AA%D7%9C+%D7%90%D7%91%D7%99%D7%91+%D7%99%D7%A4%D7%95&amp;gl=il&amp;t=m&amp;ll=32.080466,34.781342&amp;spn=0.027635,0.035105&amp;z=14&amp;iwloc=A&amp;output=embed"></iframe>
+				<div class="frame_wrapper">
+					<iframe width="420" height="420" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.co.il/maps?hl=iw&amp;safe=off&amp;q=Ibn+Gabirol+70,+Tel+Aviv-Yafo,+Israel&amp;ie=UTF8&amp;hq=&amp;hnear=%D7%90%D7%91%D7%9F+%D7%92%D7%91%D7%99%D7%A8%D7%95%D7%9C+70,+%D7%AA%D7%9C+%D7%90%D7%91%D7%99%D7%91+%D7%99%D7%A4%D7%95&amp;gl=il&amp;t=m&amp;ll=32.080466,34.781342&amp;spn=0.027635,0.035105&amp;z=14&amp;iwloc=A&amp;output=embed"></iframe>
 				</div>
 			</div>
 				<div class="sidebar"> 	
 					<div class="cupping">
 						<h2>אבן גבירול</h2>
 						<img id="twentyfour" src="_media/images/coffee/snifim/24.png" alt="">
-						<p class="inf">אבן גבירול 70 תל-אביב</p>
-						<p class="inf">03-6964924</p>
-						<p class="inf">פתוח א’-שבת 24 שעות ביממה</p>
+						<p class="inf nopadding">אבן גבירול 70 תל-אביב</p>
+						<p class="inf nopadding">03-6964924</p>
+						<p class="inf nopadding">פתוח א’-שבת 24 שעות ביממה</p>
 						<p>באחד מרחובותיה המרכזיים והסואנים של תל אביב, שוכן לו כבר יותר משש שנים הסניף הראשון של רשת לנדוור. המקום הביתי והקטן הפך ברבות השנים לבית קפה שוקק חיים, שמשרת מדי יום מאות לקוחות נאמנים.</p>
 						<hr class="hrsolid2">
 

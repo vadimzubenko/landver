@@ -40,7 +40,7 @@
 					<div class="firing2">
 								<img class="leftimg" src="_media/images/coffee/tradition/trad2.png" alt="tradition">
 								<img class="rightimg" src="_media/images/coffee/tradition/trad2.png" alt="tradition">
-								<h3>כיתוב תמונה</h3>
+								<div class="image_title">בדיקהכיתוב תמונה</div>
 						<hr class="hrdashed">
 									<br>
 									<p>בשלבי הקלייה הראשונים הפולים סופגים חום ע"י החום מתפתחות התרכובות
@@ -70,7 +70,7 @@
 								<img class="leftimg" src="_media/images/coffee/tradition/trad2.png" alt="tradition">
 								<img class="rightimg" src="_media/images/coffee/tradition/trad2.png" alt="tradition">
 								<img class="bigimg" src="_media/images/coffee/tradition/trad1.png" alt="tradition">
-								<h3>כיתוב תמונה</h3><br>
+								<div class="image_title">בדיקהכיתוב תמונה</div>
 						<hr class="hrdashed"><br>		
 								<p>קיימות שתי מתודות עיקריות לקלייה:
 								- קליית זן בודד ויצירת התערובת לאחר הקלייה של כל הזנים</p><br>

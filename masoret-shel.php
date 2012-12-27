@@ -37,7 +37,7 @@
 					<hr class="hrdashed">
 					<div class="cupping2">
 							<img class="bigimg" src="_media/images/coffee/tradition/trad1.png" alt="tradition">
-							<h2>לוח טעמים</h2>
+							<div class="image_title">לוח טעמים</div>
 							<hr class="hrdashed">
 							<p>
 							בשנת 2004 חברו סטפן יוקוביץ, עופר קורן, ניר כספי ואורן מאור - מהיזמים הוותיקים
@@ -67,7 +67,7 @@
 							<img class="bigimg" src="_media/images/coffee/tradition/trad1.png" alt="tradition">
 							<img class="leftimg" src="_media/images/coffee/tradition/trad2.png" alt="tradition">
 							<img class="rightimg" src="_media/images/coffee/tradition/trad2.png" alt="tradition">
-							<h2>כיתוב תמונה</h2>
+							<div class="image_title">כיתוב תמונה</div>
 							<hr class="hrdashed">	
 							<div id="trad3">
 								<p>בשנים האחרונות, עבר מפעלנו שדרוג טכנולוגי ותפעולי ובעקבות כך חלו שיפורים משמעותיים בכל תשתיות הייצור - קלייה, טחינה, אחסנה, שינוע ואריזה. כמו כן, שופרו מערכות הבקרה במפעל ובמעבדה. מפעלנו עומד בתקני "ISO-9001" ו- "ISO 22000:2005"המחמירים שמשקפים את דרישתנו לאפס ליקויים. כתוצאה מכל הנאמר לעיל שודרגו המוצרים של קפה לנדוור באופן מהותי. כיום, מפעל קפה לנדוור הינו המשוכלל והמתקדם מסוגו בישראל. </p>

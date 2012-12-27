@@ -17,7 +17,7 @@
 	<div id="navWrapper">
 		<ul id="navBar">
 			<li>
-				<a href="#">
+				<a href="cupping.php">
 					קפה
 					<span class="hoverBullet"></span>
 				</a>
@@ -162,13 +162,13 @@
 				</div>
 			</li>
 			<li>
-				<a href="#">
+				<a href="events.php">
 					אירועים
 					<span class="hoverBullet"></span>
 				</a>
 			</li>
 			<li>
-				<a href="#">
+				<a href="kareira.php">
 					קריירה
 					<span class="hoverBullet"></span>
 				</a>

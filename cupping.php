@@ -58,14 +58,14 @@
 				<div class="sidebar"> 	
 						<div class="cupping">
 						<h2>cupping</h2>
-						<p>טעימת קפה (cupping) היא תהליך להערכת הארומה ומאפייני הטעם של דגימת קפה>
-						המבנה הבסיסי של הטעמים מופיע בלוח הטעמים מטה, והוא מכיל את כל מגוון הטעמים>
+						<p>טעימת קפה (cupping) היא תהליך להערכת הארומה ומאפייני הטעם של דגימת קפה
+						המבנה הבסיסי של הטעמים מופיע בלוח הטעמים מטה, והוא מכיל את כל מגוון הטעמים
 						הקיימים.</p>
 						<hr class="hrdashed">
 					</div>
 						<div class="cupping2">
 							<img src="_media/images/coffee/cupping/tastesWheel.png" alt="" style="margin-top:25%;">
-							<h2>לוח טעמים</h2>
+							<div class="image_title">לוח טעמים</div>
 								<hr class="hrdashed">
 									<p>בקרת האיכות הראשונה נערכת בארץ המקור. אחרי שנטעו את הקפה, גידלו אותו, קטפו
 										אותו, עיבדו אותו ומיינו אותו, הוא מוכן להתחיל במסע הארוך אל הצרכן.
@@ -75,11 +75,11 @@
 						</div>	
 							<div class="cup1">
 								<img src="_media/images/coffee/cupping/cup1.png" alt="">
-								<h2>בדיקה של דוגמא</h2>
+								<div class="image_title">בדיקה של דוגמא</div>
 							</div>
 							<div class="cup2">	
 								<img src="_media/images/coffee/cupping/cup2.png" alt="">
-								<h2>מעבדת קפה</h2>
+								<div class="image_title">מעבדת קפה</div>
 							</div>
 								<hr class="hrdashed">
 							<div class="cup3">
@@ -99,9 +99,9 @@
 								<div class="cup5">	
 									<img src="_media/images/coffee/cupping/cup5.png" alt="">
 									<img src="_media/images/coffee/cupping/cup4.png" alt="">
-									<h1>מבחן משקה לאצוות קפה</h1>
+									<div class="image_title">מבחן משקה לאצוות קפה</div>
 								</div>
-									<hr class="hrdashed">
+							<hr class="hrdashed">
 								<div class="cup6">	
 									<p>
 									הערובה האמיתית לאיכות: בדיקה תחושתית, סוגי קפה הנתונים לבדיקה תחושתית>

@@ -80,9 +80,8 @@
 	</p>
 	<p class="formp2">
 		<label>קו”ח:</label>
-		<button class="send"><input type="submit" value="" id="send"/></button>
-		<script>$('#file').customFileInput();</script>
-		<button class="file"><input type="file" name="file" id="file" /></button>
+		<button class="send" type="submit" ></button>
+		<span class="file"><input type="file" name="file" id="file" /></span>
 	</p>
 	</form>
 

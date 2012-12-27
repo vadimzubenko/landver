@@ -57,16 +57,16 @@
 					חופשית על הסלט.</p>
 				
 					<hr class="hrsolid2">
-						<a id="print" href="#"><img src="_media/images/coffee/recipe/print.png" alt=""></a>	
 							<div id="fb-root"></div>
 							<script>(function(d, s, id) {
 							var js, fjs = d.getElementsByTagName(s)[0];
 							if (d.getElementById(id)) return;
 							js = d.createElement(s); js.id = id;
-							js.src = "//connect.facebook.net/ru_RU/all.js#xfbml=1";
+							js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
 							fjs.parentNode.insertBefore(js, fjs);
 							}(document, 'script', 'facebook-jssdk'));</script>
-							<div class="fb-like" data-send="true" data-width="130" data-show-faces="false"></div>
+							<a id="print" href="#"><img src="_media/images/coffee/recipe/print.png" alt=""></a>	
+							<div class="fb-like" data-send="true" data-width="130" data-layout="button_count" data-show-faces="false"></div>
 				</div>
 			</div>
 

@@ -8,19 +8,12 @@
 	
 	<link rel="stylesheet" type="text/css" href="_media/css/layout.css" />
 	<link href="css/basic.css" type="text/css" rel="stylesheet" />
-			<script type="text/javascript" src="http://filamentgroup.github.com/EnhanceJS/enhance.js"></script>		
-			<script type="text/javascript">
-				// Run capabilities test
-				enhance({
-					loadScripts: [
-						'https://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js',
-						'js/jQuery.fileinput.js',
-						'js/example.js'
-					],
-					loadStyles: ['css/enhanced.css']	
-				});   
-		    </script>
 	<script type="text/javascript" src="_media/js/jquery-1.8.3.min.js"></script>
+			<link rel="stylesheet" type="text/css" href="_media/css/selectik.css" />
+				
+	
+	<script type="text/javascript" src="_media/js/jquery.mousewheel.js"></script>
+	<script type="text/javascript" src="_media/js/jquery.selectik.js"></script>
 	<script type="text/javascript" src="_media/js/main.js"></script>
 	<style type="text/css"></style>
 
@@ -51,32 +44,32 @@
 						<label>אימייל:</label>
 							<input type="text" class="text" name="" />
 
-						<label></label>
-							<input type="text" class="text" name="" />
-
 						<span class="formspan">	
 							<label>*משרה:</label>
-							<select  class="select1" size="1">
-								<option selected="selected">בחירת משרה</option>
+							<select  class="select1">
+								<option value="Choose hero" selected="selected">בחירת משרה</option>
 							</select>
-							
 						</span>
 						
 						<span class="formspan">
 							<label>*בסניף:</label>
-							<select  class="select1" size="1">
+							<select  class="select2">
 								<option selected="selected">בחירת סניף</option>
 							</select>
 						</span>	
 						
 						<span class="formspan">
 							<label>*משמרות:</label>	
-							<select  class="select1" size="1">
+							<select  class="select3">
 								<option selected="selected">בחירת כמות משמרות שבועית</option>
 							</select>
 											
 						</span>
-
+						
+						<span class="filefield">
+						<input type="file" name="file" id="file" />
+						</span>
+						
 						<label>ניסיון רלוונטי בתחום:</label>
 							<input type="text" class="text2" name="" />
 
@@ -119,15 +112,19 @@
 		</div>
 	
 								<div>
-		<fieldset>
-			<label for="file">Choose photo</label>
-			<input type="file" name="file" id="file" />
-		</fieldset>
+
+
+
 	</form>
 	</div>
-					
 
-	
+<script type="text/javascript">
+    $(document).ready(function() {
+       $('select').selectik({
+		width: 257,
+	});    
+    });	
+</script>
 	
 	<?php include_once ("_inc/footer.inc.php"); ?>
 </body>

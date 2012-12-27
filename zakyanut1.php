@@ -11,10 +11,6 @@
 	<script type="text/javascript" src="_media/js/jquery-1.8.3.min.js"></script>
 	<script type="text/javascript" src="_media/js/main.js"></script>
 	<script type="text/javascript" src="_media/js/jquery.validate.min.js"></script>
-	<script type="text/javascript" src="_media/js/jquery.fileinput.js"></script>
-	<style type="text/css">
-		
-	</style>
 
 </head>
 <body>
@@ -72,9 +68,8 @@
 	</p>
 	<p class="formp2">
 		<label>קו”ח:</label>
-		<button class="send"><img src="_media/images/coffee/zakyanut/button1.png" alt=""><input type="submit" value="SEND"/></button>
-		<script>$('#file').customFileInput();</script>
-		<button class="file"><input type="file" name="file" id="file" /></button>
+		<button class="send" type="submit"><img src="_media/images/coffee/zakyanut/button1.png" alt=""></button>
+		<span class="file"><input type="file" name="file" id="file" /></span>
 	</p>
 	</form>
 

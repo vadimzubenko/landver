@@ -67,7 +67,8 @@ html[xmlns] .clearfix { display: block; }
 menu, ol, ul{ padding:0; }
 dl, menu, ol, ul{ margin:0; }
 a:focus{ outline:0; }
-h4, p{ margin:0; }
+h4 { margin:0; }
+p {margin: 10px 0 0 0;}
 
 /* Header */
 #headerWrapper{ width:100%; position:relative; margin-top:95px; }
@@ -122,16 +123,16 @@ h4, p{ margin:0; }
 /* End Header */
 
 /*Wrapper*/
-.wrapper {width: 980px; margin: 0 auto;}
+.wrapper {width: 980px; margin: 0 auto; padding-top: 7px;}
 .fb_iframe_widget {float:left; margin-top:20px;}
 .iframe {background: url ("../images/home/home_facebookFrame.png"); float:left; }
 
 /* Home*/
-.images {float:left; margin:0 auto; margin-bottom: 110px;}
+.images {float:left; margin: 6px auto 110px;}
 .img1, .img2, .img4  {float:left;}
 .img2 {margin-left: 20px}
-.img4, .img5 {margin-left: 20px; margin-top:20px;}
-.img5 {float: right;}
+.img4 {margin-left: 35px; margin-top: 22px;}
+.img5 {float: right; margin-top: 23px;}
 
 
 /* Cupping*/
@@ -139,9 +140,9 @@ h4, p{ margin:0; }
 .sidebar {float:right; width: 480px; padding-bottom: 110px;}
 .sidebar2 {float: right; width:315px;}
 .aromat {width:310px; background-color: #faba00; float: left; font-size:14px;}
-.aromatinfo {padding-right:20px; padding-bottom:20px; padding-top:20px;}
-.aromatinfo p, .aromatinfo h3 {color:#573d39;}
-.aromatinfo h3 {padding-top:20px; padding-bottom:10px; font-family: 'maccabiblockbold'; }
+.aromatinfo { padding: 6px 20px 20px;}
+.aromatinfo p, .aromatinfo h3 {color:#573d39;  margin: 0;}
+.aromatinfo h3 {padding-top:20px;font-family: 'maccabiblockbold'; }
 .cupping {height: 45px; width: 480px; background:url("../images/coffee/cupping/cupping.png"); }
 .cupping h2 {text-transform:uppercase; color:#f3edd8; font-family: 'maccabiblockblack'; font-size: 23px; padding: 8px 15px;}
 .cupping p, .cupping2 p, .cup3 p, .cup6 p {font-size:14px; color: #573d39; padding: 0px 0px 15px 0px; text-align: justify;}
@@ -154,7 +155,7 @@ h4, p{ margin:0; }
 .cup1, .cup3 {float: left;}
 .cup4 {padding-top: 25px; float: left;}
 .cup5 img {padding-top: 15px; padding-right: 5px;}
-.cup5 h1, .cup1 h2, .cup2 h2 {font-size: 13px; text-align:center; padding-bottom: 5px; padding-top: 5px;}
+.image_title {font-size: 13px; text-align:center; padding-bottom: 5px; padding-top: 5px; color: #573d39; font-weight: 700;}
 #arrow1, #arrow2 {padding-top:12px; font-size: 13px; font-family: 'maccabiblockblack'; color:#573d39;}
 #arrow1 {float: left;}
 #arrow2 {float: right;}
@@ -207,7 +208,7 @@ h4, p{ margin:0; }
 .photos:last-child {float:right; padding-right: 6px;}
 .mixture {height: 45px; width: 315px; background:url("../images/coffee/taarovot/mixture.png"); }
 .mixture h2 {text-transform: uppercase; color: #f3edd8; font-family: 'maccabiblockblack'; font-size: 23px; padding: 8px 15px;}
-.mixture p {font-size:14px; color: #573d39; padding-top:15px; float:left; padding-bottom: 10px;}
+.mixture p {font-size:14px; color: #573d39; /*padding-top:15px;*/ float:left; /*padding-bottom: 10px;*/}
 
 
 
@@ -251,6 +252,7 @@ h4, p{ margin:0; }
 .mixture ul li a:link{color:#90736c;}
 .mixture ul li a:hover {color:#573d39; background:url("../images/coffee/recipe/marker.png") no-repeat center right;}
 .fb-like {float:right; margin-bottom: 110px;}
+#print {float: left;}
 
 /*Tips*/
 .tips {float:left; width:315px;}
@@ -273,7 +275,7 @@ h4, p{ margin:0; }
 
 /*HR lines style*/
 .hrsolid2 {background:url("../images/coffee/taarovot/hr1.png"); height: 1px; width: 480px; border:0;}
-.hrsolid {background:url("../images/coffee/taarovot/hr1.png"); height: 1px; width: 315px; border:0;}
+.hrsolid {background:url("../images/coffee/taarovot/hr1.png");  float: left; height: 2px; margin-top: 5px; width: 315px; border:0;}
 .hrdashed2 {background:url("../images/coffee/taarovot/hr2.png"); height: 1px; width: 315px; border:0;}
 .hrdashed {background:url("../images/coffee/taarovot/hr2.png"); height: 1px; width: 480px; border:0;}
 .hrdashed3 {background:url("../images/coffee/taarovot/hr2.png"); height: 1px; width: 145px; border:0;}
@@ -282,6 +284,7 @@ h4, p{ margin:0; }
 /*Menu 1 */
 .contentp {padding-bottom:15px; font-size:14px;}
 .wrapper3 {height:800px; width:980px; margin:0 auto;}
+
 
 /*Snifim*/
 #twentyfour{float: left; padding-top:10px;}
@@ -292,24 +295,29 @@ h4, p{ margin:0; }
 .right2 {float:right;}
 .left2 h4, .center h4, .right2 h4 {font-size:16px; color: #90736c; font-family: 'maccabiblockblack'; }
 .left2 li a, .center li a, .right2 li a  {color: #90736c; font-size:14px;}
-.center li a, .right2 li a {padding-right: 13px; display:block;}
+.center li a, .right2 li a {padding-right: 13px; display:block;margin-right: -13px;}
 .center li a:hover, .right2 li a:hover {color:#573d39; background:url("../images/coffee/recipe/marker.png") no-repeat center right;}
 .wrapper4 {height:525px; width:980px; margin:0 auto;}
+.frame_wrapper {float:left;}
+.nopadding {padding: 0!important;}
 
 /*Kareira*/
 .content2 {width:315px; float: left;}
 .blocks2 {width:320px; float: left; }
-.blocks2 label {color:#573d39; clear:both; float:right; padding-top: 19px; width:62px; text-align:left; font-size:14px; color:#573d39;}
+.blocks2 label {color:#573d39; clear:both; float:right;  padding-top: 28px; width:62px; text-align:right; font-size:14px; color:#573d39;}
 .content2 p{font-weight:bold; font-size: 14px; padding-bottom:25px; color:#573d39}
 .blocks2 .text2 {width: 255px; height: 70px; float: left; background-color: transparent; border: none; border: 1px dashed #573d39; margin-top: 20px;}
-.formspan {width: 255px; height: 40px; float: left; background-color: transparent; border: none; border-bottom: 1px dashed #573d39; }
+.formspan {width: 320px; height: 40px; float: left; background-color: transparent; border: none; /*border-bottom: 1px dashed #573d39; */ margin: 10px 0 0;}
+.formspan {margin: 30px 0 0;}
 .blocks2 .text {width: 255px; height: 40px; float: left; background-color: transparent; border: none; border-bottom: 1px dashed #573d39;}
-.select1 {border:0; background: transparent; direction: ltr;  float: right;}
-.formspan label {padding-top:5px;}
+/*.select1 {border:0; background: transparent; direction: ltr;  float: right;}*/
+.formspan label {padding-top:0;}
+.filefield {background:url("../images/general/file_btn.png") no-repeat center right;display: block;float: left;height: 28px;width: 250px;}
+.filefield input {width: 230px; opacity: 0;}
 
 
 
-.send {width:145px; height:20px; float:left; background:url("../images/coffee/zakyanut/button1.png"); border: none; cursor:pointer;}
+.send {width:145px; height:20px; float:left; background:url("../images/coffee/zakyanut/button1.png"); border: none; cursor:pointer;margin-top: 27px;}
 .send2 {width:90px; height:20px; float:left; background:url("../images/coffee/zakyanut/button1.png"); border: none; cursor:pointer; margin-top:20px;}
 .send2 input {opacity:0;}
 
@@ -319,9 +327,10 @@ h4, p{ margin:0; }
 
 
 #file {position: absolute; height: 20px; cursor: pointer; background: transparent; border: 0; opacity: 0; -moz-opacity: 0; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0); z-index: 999; }
-.file {width: 255px; background: red; cursor: pointer; overflow: hidden; padding: 2px; border: 1px solid #444; -moz-border-radius:7px; -webkit-border-radius:7px; border-radius:7px;  position: relative; }
-
-
+.file {background: url("../images/general/file_btn2.png") no-repeat scroll right center transparent;border: 0 none;cursor: pointer;display: block;float: left;margin-left: 16px;margin-top: 25px;position: relative;width: 255px;}
+.file  input {opacity: 0;}
+.formp2 {margin: 0;}
+.formp2 label{padding-top: 50px;}
 
 
 
@@ -331,27 +340,28 @@ h4, p{ margin:0; }
 #footerlinksWrapper{ color:#cfc4ad; font-size:12px; height:192px; list-style-type:none; margin:0 auto; width:1000px; }
 
 #footerlinksWrapper li{ border-left:1px dashed #8f726b; float:right; height:192px; padding:0 15px; }
-#footerlinksWrapper li.first{ padding-right:0; width:100px; }
+#footerlinksWrapper li.first{ padding-right:0; width:112px; }
 #footerlinksWrapper li.second{ width:80px; }
 #footerlinksWrapper li.third{ width:55px; }
 #footerlinksWrapper li.fourth{ width:357px; }
-#footerlinksWrapper li.fifth{ width:60px; }
-#footerlinksWrapper li.sixth{ width:55px; }
+#footerlinksWrapper li.fifth{ width:50px; }
+#footerlinksWrapper li.sixth{ width:45px; }
 #footerlinksWrapper li.last{ border:0 none; padding-left:0; width:105px; font-size: 12px; float:right;}
-#footerlinksWrapper li.last h3, #footerlinksWrapper li.sixth h3, #footerlinksWrapper li.fifth h3, #footerlinksWrapper li.fourth h3, #footerlinksWrapper li.third h3, #footerlinksWrapper li.second h3, #footerlinksWrapper li.first h3 {color: #ded5c3; font-weight: bold; font-size: 12px; }
+#footerlinksWrapper li.last h3, #footerlinksWrapper li.sixth h3, #footerlinksWrapper li.fifth h3, #footerlinksWrapper li.fourth h3, #footerlinksWrapper li.third h3, #footerlinksWrapper li.second h3, #footerlinksWrapper li.first h3 {color: #ded5c3; font-weight: bold; font-size: 12px; margin-top: 10px; }
+#footerlinksWrapper ul#fourth5 h3 {margin-top: 0;}
 #footerlinksWrapper li.sixth h3, #footerlinksWrapper li.fifth h3 {text-align: center;}
-#footerlinksWrapper li.last a,  #footerlinksWrapper li.third a, #footerlinksWrapper li.second a{ color:#cfc4ad; line-height: 1.5;}
-#footerlinksWrapper li.first h2 {border-bottom: 1px dashed #8F726B; width: 95px; font-size:15px; color: #efb304; height:30px; line-height: 2;}
+#footerlinksWrapper li.last a,  #footerlinksWrapper li.third a, #footerlinksWrapper li.second a{ color:#cfc4ad; line-height: 16px;}
+#footerlinksWrapper li.first h2 {border-bottom: 1px dashed #8F726B; width: 100px; font-size:15px; color: #efb304; height:30px; line-height: 40px;  margin-right: 10px;}
 .firsth2 {position: relative; bottom:3%;}
-.firstp {line-height: 0.7;}
+.firstp {line-height: 0.7;  margin-right: 10px;}
 .filials, .filials2 {float: left;}
 #fourth2, #fourth3 {padding-top: 10px;}
 .filials a {color:#cfc4ad;}
 #footerlinksWrapper li.fourth a {color:#cfc4ad;}
-.filials2 {margin-left:20px; }
-.firstp a img{margin-top: 30px;} 
+.filials2 {margin-left:30px; }
+.firstp a img {margin-top: 24px;} 
 #footerBottom{ border-top:1px dashed #8f726b; height:40px; margin:10px auto 0; width:1000px; }
-#footerBottom span{ display:block; color:#f3edd8; height:40px; line-height:40px; font-size:10px; padding-right:50px; }
+#footerBottom span{ display:block; color:#f3edd8; height:40px; line-height:30px; font-size:10px; padding-right:50px; }
 #footerBottom span.credits{ float:left; }
 #footerBottom span.copy{ float:right; padding:0; }
 /* End Footer */
@@ -367,3 +377,4 @@ h4, p{ margin:0; }
  /* End Sidebar */
 
  #pageContent{ margin:0 auto; width:980px; }
+.clear {margin:0;}

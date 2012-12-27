@@ -85,10 +85,12 @@ $('div.navDrop.wide ul > li:last-child').css('margin', '0');
 $('.navDrop > ul > li > ul').not(':first-child').css('margin-top', '23px');
 
 $('#navBar li').mouseenter(function(){
+	$(this).find('.navDrop').stop(true, true);
 	$(this).find('.navDrop').slideDown('normal');
 });
 $('#navBar li').mouseleave(function(){
 	$(this).find('.navDrop').slideUp('fast');
+	
 });
 
 });// End Document ready
